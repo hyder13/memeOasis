@@ -9,76 +9,85 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
+            background: linear-gradient(135deg, #1e1e2f, #2a2a3b);
+            color: #fff;
         }
         header {
-            background-color: #4caf50;
-            color: white;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
             text-align: center;
-            padding: 1rem 0;
+            padding: 2rem 0;
+        }
+        header h1 {
+            font-size: 3rem;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
         }
         .banner {
-            padding: 2rem;
+            padding: 4rem 2rem;
             text-align: center;
-            background-color: #e8f5e9;
+            background: url('https://source.unsplash.com/random/1920x1080?futuristic') no-repeat center/cover;
+            color: #fff;
+            box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.7);
         }
         .banner h1 {
-            font-size: 2.5rem;
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
         }
-        .section {
-            padding: 2rem;
+        .banner p {
+            font-size: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .content {
+            padding: 3rem 2rem;
             text-align: center;
         }
-        .button {
-            display: inline-block;
-            margin: 1rem;
-            padding: 0.5rem 1rem;
-            background-color: #4caf50;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
+        .content h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        .content p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.8;
         }
         footer {
             text-align: center;
-            padding: 1rem;
-            background-color: #333;
-            color: white;
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.9);
+            color: #ccc;
+        }
+        footer a {
+            color: #4caf50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>MemeOasis</h1>
-        <p>Your Web3 Utopia: BTC Zone | Diversity | Decentralization</p>
     </header>
 
     <div class="banner">
         <h1>Welcome to MemeOasis</h1>
-        <p>Explore the BTC Zone, embrace decentralization, and fuel freedom with DAO governance, gaming, and education.</p>
-        <a href="#join" class="button">Join the DAO</a>
+        <p>A futuristic Web3 utopia where memes meet diversity and decentralization. Join the movement and explore the future of AI-powered humor.</p>
     </div>
 
-    <div class="section" id="btc-zone">
-        <h2>BTC Zone</h2>
-        <p>Dive into the world of Bitcoin and explore the latest trends, games, and insights.</p>
-        <a href="#btc-game" class="button">Play BTC Game</a>
-    </div>
-
-    <div class="section" id="dao">
-        <h2>DAO Governance</h2>
-        <p>Fair and transparent governance powered by the community. Participate in voting and decision-making.</p>
-        <a href="#vote" class="button">Vote Now</a>
-    </div>
-
-    <div class="section" id="education">
-        <h2>Gaming & Education</h2>
-        <p>Learn about Web3 through interactive games and educational resources.</p>
-        <a href="#learn" class="button">Start Learning</a>
+    <div class="content">
+        <h2>What is MemeOasis?</h2>
+        <p>MemeOasis is a unique space blending cutting-edge technology and creativity. It celebrates diversity, decentralization, and the boundless potential of Web3. Fueled by AI, MemeOasis transforms memes into stories that entertain and educate.</p>
+        <p>Follow us on <a href="https://x.com/memeOasis_ai" target="_blank">Twitter</a> to dive into our AI-powered content and join the conversation!</p>
     </div>
 
     <footer>
-        <p>Follow us on <a href="https://x.com/memeOasis_ai" target="_blank" style="color: #4caf50;">Twitter</a> | Join our <a href="#" style="color: #4caf50;">Telegram</a></p>
+        <p>Discover more at <a href="https://x.com/memeOasis_ai" target="_blank">MemeOasis on Twitter</a></p>
         <p>&copy; 2024 MemeOasis. All Rights Reserved.</p>
     </footer>
 </body>
